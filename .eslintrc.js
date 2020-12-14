@@ -31,7 +31,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     ],
-    'react/jsx-indent': ['2', 'tab'],
+    'react/jsx-indent': [2, 2],
     'react/jsx-props-no-spreading': [
       'error',
       {
