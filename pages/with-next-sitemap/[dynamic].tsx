@@ -22,14 +22,14 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	return {
-		paths: [...Array(10000)].map((_, index) => ({
-			params: {
-				dynamic: `page-${index}`,
-			},
-		})),
-		fallback: false,
-	};
+  return {
+    paths: [...Array(10000)].map((_, index) => ({
+      params: {
+        dynamic: `page-${index}`,
+      },
+    })),
+    fallback: false,
+  };
 };
 
 export default DynamicPage;
