@@ -15,12 +15,14 @@
     "ahooks": "^2.9.4",
     "next": "10.0.3",
     "next-compose-plugins": "^2.2.1",
+    "nprogress": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.30.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
