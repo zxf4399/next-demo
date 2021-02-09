@@ -11,6 +11,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@next/bundle-analyzer": "^10.0.5",
     "@welldone-software/why-did-you-render": "^6.0.5",
     "ahooks": "^2.9.4",
