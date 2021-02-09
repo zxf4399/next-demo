@@ -7,6 +7,8 @@ import React from 'react';
 
 import SEO from '../next-seo.config';
 
+import '../scripts/wdyr';
+
 import '../styles/globals.css';
 import './index.scss';
 
