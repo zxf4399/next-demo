@@ -1,12 +1,12 @@
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { AppProps } from 'next/app';
-import Link from 'next/link';
 import Router from 'next/router';
 import { DefaultSeo } from 'next-seo';
 import NProgress from 'nprogress';
 import React, { useEffect } from 'react';
 
+import ClippedDrawer from 'components/common/ClippedDrawer';
 import SEO from 'next-seo.config';
 import 'scripts/wdyr';
 import theme from 'theme';
@@ -35,13 +35,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-        <nav>
-          <Link href="/svg-components">svg-components</Link>
-          <Link href="/with-next-sass">with-next-sass</Link>
-          <Link href="/with-next-sitemap">with-next-sitemap</Link>
-          <Link href="/with-tailwindcss">with-tailwindcss</Link>
-        </nav>
-        <Component {...pageProps} />
+        <ClippedDrawer>
+          <Component {...pageProps} />
+        </ClippedDrawer>
       </ThemeProvider>
     </>
   );
