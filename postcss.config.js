@@ -13,7 +13,6 @@ module.exports = {
         },
       },
     ],
-    'tailwindcss',
     [
       '@fullhuman/postcss-purgecss',
       {
@@ -25,5 +24,6 @@ module.exports = {
         safelist: ['html', 'body'],
       },
     ],
+    'tailwindcss',
   ],
 };
