@@ -48,6 +48,7 @@ const ClippedDrawer: React.FC = ({ children }) => {
     { text: 'with-next-sitemap', url: '/with-next-sitemap' },
     { text: 'with-tailwindcss', url: '/with-tailwindcss' },
     { text: 'with-why-did-you-render', url: '/with-why-did-you-render' },
+    { text: 'post', url: '/post' },
   ];
 
   return (
