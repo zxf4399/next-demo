@@ -23,5 +23,8 @@ module.exports = withPlugins(
     future: {
       webpack5: true,
     },
+    images: {
+      domains: ['images.tuyacn.com'],
+    },
   }
 );
